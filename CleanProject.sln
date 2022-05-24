@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanProject.API", "CleanProject.API\CleanProject.API.csproj", "{07557F42-8356-40B1-901B-DE5E16A748B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanProject.BusinessLogic", "CleanProject.BusinessLogic\CleanProject.BusinessLogic.csproj", "{78DD5776-24A2-4C57-B830-4C2FCD676C38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanProject.DataAccess.Postgres", "CleanProject.DataAccess.Postgres\CleanProject.DataAccess.Postgres.csproj", "{9CC6241A-D077-4034-99C7-382B1EA8AE87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanProject.Domain", "CleanProject.Domain\CleanProject.Domain.csproj", "{CEE406D9-EE03-4498-87D8-000D6049E7B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanProject.IntegrationTests", "CleanProject.IntegrationTests\CleanProject.IntegrationTests.csproj", "{FD3618C5-5D7F-420F-A267-BE358E06ABBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanProject.UnitTests", "CleanProject.UnitTests\CleanProject.UnitTests.csproj", "{B15136C7-C752-483D-8780-F6AB90502513}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07557F42-8356-40B1-901B-DE5E16A748B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07557F42-8356-40B1-901B-DE5E16A748B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07557F42-8356-40B1-901B-DE5E16A748B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07557F42-8356-40B1-901B-DE5E16A748B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78DD5776-24A2-4C57-B830-4C2FCD676C38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78DD5776-24A2-4C57-B830-4C2FCD676C38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78DD5776-24A2-4C57-B830-4C2FCD676C38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78DD5776-24A2-4C57-B830-4C2FCD676C38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CC6241A-D077-4034-99C7-382B1EA8AE87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CC6241A-D077-4034-99C7-382B1EA8AE87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CC6241A-D077-4034-99C7-382B1EA8AE87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CC6241A-D077-4034-99C7-382B1EA8AE87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEE406D9-EE03-4498-87D8-000D6049E7B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEE406D9-EE03-4498-87D8-000D6049E7B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEE406D9-EE03-4498-87D8-000D6049E7B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEE406D9-EE03-4498-87D8-000D6049E7B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD3618C5-5D7F-420F-A267-BE358E06ABBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD3618C5-5D7F-420F-A267-BE358E06ABBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD3618C5-5D7F-420F-A267-BE358E06ABBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD3618C5-5D7F-420F-A267-BE358E06ABBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B15136C7-C752-483D-8780-F6AB90502513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B15136C7-C752-483D-8780-F6AB90502513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B15136C7-C752-483D-8780-F6AB90502513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B15136C7-C752-483D-8780-F6AB90502513}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
